@@ -1,0 +1,137 @@
+button{
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+}
+.pageBox{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #666666;
+
+}
+
+.pageBox a{
+	color:  #666666;
+}
+
+.LoginBox{
+	height: 50%;
+	min-width: 350px;
+	margin: 20% 0% 20% 0%;
+	border: 1px solid #D4D4D4;
+}
+
+/*-----------------------*/
+
+.topIcon{
+	display: flex;
+	justify-content: center;
+}
+
+.topIcon img{
+	width: 75px;
+	height: 75px;
+}
+
+/*----------------------*/
+
+.middleForm{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 250px;
+}
+
+.middleFormItem1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+}
+
+.middleFormItem1 input{
+	font-size: 16px;
+	padding: 10px 0px 10px 5px;
+}
+
+.middleFormItem1 button{
+	font-size: 16px;
+	padding: 8px 0px 8px;
+	border: none;
+	background-color:#0070ba;
+	color: white;
+	border-radius: 25px;
+}
+
+.middleFormItem2{
+	margin: 0px;
+}
+
+.spanLine{
+	display: inline-block;
+	width: 130px;
+	border-top: 1px solid #666666;
+	margin-bottom: 5px;
+}
+
+.middleFormItem3{
+	width: 300px;
+}
+
+.middleFormItem3 button{
+	width: 100%;
+	font-size: 16px;
+	padding: 8px 0px 8px;
+	color: #0070ba;
+	background-color: white;
+	border: 1px solid #0070ba;
+	border-radius: 25px;
+}
+
+/*----------------------------*/
+
+.bottomTranslate{
+	display: flex;
+	justify-content: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.bottomTranslate a{
+	margin-left:8px;
+	font-size: 14px;
+}
+
+.bottomTranslate img{
+    width: 20px;
+    height: 20px;
+}
+
+/*-----------------------------*/
+.bottomNav{
+	position: fixed;
+	bottom: 0px;
+	background-color: #F7F9FA;
+	padding: 16px 0px 8px;
+	width: 100vw;
+}
+.bottomNav ul{
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+.bottomNav li{
+	display: inline;
+	list-style-type: none;
+	margin: 0px 8px;
+}
+
+.bottomNav li a{
+	color: #666666;
+	font-size: 14px;
+}
